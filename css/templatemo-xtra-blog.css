@@ -10,9 +10,19 @@ body {
     line-height: 2em;
     overflow-x: hidden;
 }
+button{
+   background-color: #0CC;
+   border-radius: 10px;
+   color: white;
+   font-size: x-large;
+
+}
+.btn{
+    margin-left: auto;
+}
 p, span { color: #999; }
 hr { 
-    border-top-color: #CCC; 
+    border-top-color: #CCC;     
     margin-top: 10px;
     margin-bottom: 10px;
 }
