@@ -1,10 +1,4 @@
-/*
 
-TemplateMo 553 Xtra Blog
-
-https://templatemo.com/tm-553-xtra-blog
-
-*/
 
 html { overflow-x: hidden; }
 
@@ -16,7 +10,6 @@ body {
     line-height: 2em;
     overflow-x: hidden;
 }
-
 p, span { color: #999; }
 hr { 
     border-top-color: #CCC; 
@@ -382,6 +375,10 @@ a:hover {
     color: #048c8c;
 }
 
+img{
+    width: 400px;
+    margin-bottom: 30px;
+}
 a:hover figcaption { color: #056767; }
 .img-thumbnail { max-width: none; }
 .tm-about-pad { padding: 40px 35px; }
