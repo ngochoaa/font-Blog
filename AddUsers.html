@@ -77,7 +77,7 @@
             color: #b5b5b5;
         }
 
-        #signup .inputs input[type=title] {
+        #signup .inputs input {
             background: #ffffff;
             font-size: 0.8rem;
             border-radius: 5px;
@@ -184,29 +184,32 @@
             <div class="sep"></div>
 
             <div class="inputs">
-                <label >DisplayName:</label><br>
-                <input type="title" /><br>
-                <label >Email:</label><br>
-                <input type="title"/>
-                <label >Phone:</label><br>
-                <input type="title"/>
-                <label >DateOfBirth:</label><br>
-                <input type="title"/>
-                <label >Address:</label><br>
-                <input type="title"/>
-                
-                <div>
-                    <button class="btn2">
-                        <a href="User.html" style="color: white;">
-                            Quay lại
-                        </a>
-                    </button>
-                    <button class="btn1">
-                        Thêm User
-                    </button>
-                    
-                </div>
+                <form action="" method="post">
+                    <label>DisplayName:</label><br>
+                    <input type="text" id="displayName" name="displayName" /><br>
+                    <label>Email:</label><br>
+                    <input type="email" id="email" name="email" />
+                    <label>Phone:</label><br>
+                    <input type="number" id="phone" name="phone" />
+                    <label>Address:</label><br>
+                    <input type="text" id="address" name="address" />
+                    <div>
+                        <button class="btn2">
+                            <a href="User.html" style="color: white;">
+                                Quay lại
+                            </a>
+                        </button>
+                        <button class="btn1">
+                            Thêm User
+                        </button>
+                    </div>
+                </form>
+
+
             </div>
+            <script src="js/jquery.min.js"></script>
+            <script src="js/templatemo-script.js"></script>
+            <script src="js/addUser.js"></script>
 </body>
 
 </html>
