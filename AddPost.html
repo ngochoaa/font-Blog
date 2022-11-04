@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/templatemo-xtra-blog.css" rel="stylesheet">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css"> <!-- https://fontawesome.com/ -->
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <!-- https://fonts.google.com/ -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Thêm bài viết</title>
+    <style>
+        body {
+
+            font-family: "Helvetica Neue", Helvetica, Arial;
+            padding-top: 100px;
+        }
+
+        .container {
+            width: 406px;
+            max-width: 406px;
+            margin: 0 auto;
+        }
+
+        #signup {
+            padding: 0px 25px 25px;
+            background: #fff;
+            box-shadow:
+                0px 0px 0px 5px rgba(255, 255, 255, 0.4),
+                0px 4px 20px rgba(0, 0, 0, 0.33);
+            -moz-border-radius: 5px;
+            -webkit-border-radius: 5px;
+            border-radius: 5px;
+            display: table;
+            position: static;
+        }
+
+        #signup .headers {
+            margin-bottom: 20px;
+            margin-top: 50px;
+        }
+
+        #signup .headers h3 {
+            color: #333333;
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        #signup .headers p {
+            color: #8f8f8f;
+            font-size: 14px;
+            font-weight: 300;
+        }
+
+        #signup .sep {
+            height: 1px;
+            background: #e8e8e8;
+            width: 406px;
+            margin: 0px -25px;
+        }
+
+        #signup .inputs {
+            margin-top: 25px;
+        }
+
+
+
+        input::-webkit-input-placeholder {
+            color: #b5b5b5;
+        }
+
+        input:-moz-placeholder {
+            color: #b5b5b5;
+        }
+
+        #signup .inputs input[type=title] {
+            background: #ffffff;
+            font-size: 0.8rem;
+            border-radius: 3px;
+            padding: 13px 10px;
+            width: 380px;
+            margin-bottom: 20px;
+        }
+
+        #signup .inputs .checkboxy {
+            display: block;
+            position: static;
+            height: 25px;
+            margin-top: 10px;
+            clear: both;
+        }
+
+        #signup .inputs input[type=checkbox] {
+            float: left;
+            margin-right: 10px;
+            margin-top: 3px;
+        }
+
+        #signup .inputs label.terms {
+            float: left;
+            font-size: 14px;
+            font-style: italic;
+        }
+
+        button {
+            background-color: #0CC;
+            color: white;
+            padding: 8px 30px;
+            border: none;
+            display: inline-block;
+            border-radius: 5px;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+            text-align: center;
+            margin-left: 100px  ;
+            margin-top: 20px;
+            
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="tm-header" id="tm-header">
+        <div class="tm-header-wrapper">
+            <button class="navbar-toggler" type="button" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="tm-site-header">
+                <div class="mb-3 mx-auto tm-site-logo"><img src="./img/shark.png" alt="shark_cute" /></div>
+                <h1 class="text-center">Shark Blog</h1>
+            </div>
+            <nav class="tm-nav" id="tm-nav">
+                <ul>
+                    <li class="tm-nav-item active"><a href="index.html" class="tm-nav-link">
+                            <i class="fas fa-home"></i>
+                            Blog Home
+                        </a></li>
+                    <li class="tm-nav-item"><a href="User.html" class="tm-nav-link">
+                            <i class='fas fa-user-alt'></i>
+                            Users
+                        </a></li>
+                </ul>
+            </nav>
+            <div class="tm-mb-40">
+                <a rel="nofollow" href="https://fb.com/templatemo" class="tm-social-link">
+                    <i class="fab fa-facebook tm-social-icon"></i>
+                </a>
+                <a href="https://twitter.com" class="tm-social-link">
+                    <i class="fab fa-twitter tm-social-icon"></i>
+                </a>
+                <a href="https://instagram.com" class="tm-social-link">
+                    <i class="fab fa-instagram tm-social-icon"></i>
+                </a>
+                </a>
+            </div>
+            <p class="tm-mb-80 pr-5 text-white">
+                Blog dành cho người xấu:>
+            </p>
+        </div>
+    </header>
+
+    <div class="container">
+
+        <form id="signup">
+
+            <div class="headers">
+
+                <h3>Thêm bài viết</h3>
+
+                <p>Viết ngay bài viết bạn yêu thích</p>
+
+            </div>
+
+            <div class="sep"></div>
+
+            <div class="inputs">
+
+                <input type="title" placeholder="Nhập tiêu đề bài viết" />
+                <textarea cols="45" rows="5" name="content" placeholder="Nhập nội dung bài viết"
+                style="border-radius:5px ;"
+                  ></textarea>
+
+                <button>
+                    <i class="fa fa-plus" style="font: size 26px;color: white;"></i>
+                    Thêm bài viết
+                    </a>
+                </button>
+</body>
+
+</html>
