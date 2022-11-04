@@ -20,15 +20,15 @@
         }
 
         textarea {
-          width: 100%;
-          height: 150px;
-          padding: 10px 10px;
-          box-sizing: border-box;
-          border: 2px solid #ccc;
-          border-radius: 4px;
-          background-color: #ffffff;
-          font-size: 15px;
-          resize: none;
+            width: 100%;
+            height: 150px;
+            padding: 10px 10px;
+            box-sizing: border-box;
+            border: 2px solid #ccc;
+            border-radius: 4px;
+            background-color: #ffffff;
+            font-size: 15px;
+            resize: none;
         }
 
         .container {
@@ -90,7 +90,7 @@
             color: #4d4d4d;
         } */
 
-        #signup .inputs input[type=title] {
+        #signup .inputs input {
             background: #ffffff;
             font-size: 0.8rem;
             border-radius: 3px;
@@ -199,22 +199,24 @@
             <div class="sep"></div>
 
             <div class="inputs">
+                <form method="post">
+                    <input type="text" id="title" name="title" placeholder="Nhập tiêu đề bài viết" />
+                    <input type="text" id="authorId" name="authorId" placeholder="Nhập authorId" />
+                    <textarea cols="45" rows="5" id="content" name="content" placeholder="Nhập nội dung bài viết"
+                        style="border-radius:5px ;"></textarea>
+                    <div>
+                        <button class="btn2">
+                            <a href="index.html" style="color: white;">
+                                Quay lại
+                            </a>
+                        </button>
+                        <button class="btn1">
+                            Thêm bài viết
+                        </button>
 
-                <input type="title" placeholder="Nhập tiêu đề bài viết" />
-                <input type="title" placeholder="Nhập UserID" />
-                <textarea cols="45" rows="5" name="content" placeholder="Nhập nội dung bài viết"
-                    style="border-radius:5px ;"></textarea>
-                <div>
-                    <button class="btn2">
-                        <a href="index.html" style="color: white;">
-                            Quay lại
-                        </a>
-                    </button>
-                    <button class="btn1">
-                        Thêm bài viết
-                    </button>
+                    </div>
+                </form>
 
-                </div>
             </div>
             <script src="js/jquery.min.js"></script>
             <script src="js/templatemo-script.js"></script>
