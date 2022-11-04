@@ -115,10 +115,17 @@
             border-radius: 5px;
             font-size: 1rem;
             transition: all 0.3s ease;
-            text-align: center;
-            margin-left: 100px  ;
+
+        }
+
+        .btn1 {
             margin-top: 20px;
-            
+            margin-left: 20px;
+        }
+
+        .btn2 {
+            padding: 8px 30px;
+            margin-left: 50px;
         }
     </style>
 </head>
@@ -181,15 +188,21 @@
             <div class="inputs">
 
                 <input type="title" placeholder="Nhập tiêu đề bài viết" />
+                <input type="title" placeholder="Nhập UserID" />
                 <textarea cols="45" rows="5" name="content" placeholder="Nhập nội dung bài viết"
-                style="border-radius:5px ;"
-                  ></textarea>
-
-                <button>
-                    <i class="fa fa-plus" style="font: size 26px;color: white;"></i>
-                    Thêm bài viết
-                    </a>
-                </button>
+                    style="border-radius:5px ;"></textarea>
+                <div>
+                    <button class="btn2">
+                        <a href="index.html" style="color: white;">
+                            Quay lại
+                        </a>
+                    </button>
+                    <button class="btn1">
+                        Thêm bài viết
+                    </button>
+                    
+                </div>
+            </div>
 </body>
 
 </html>
