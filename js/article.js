@@ -4,7 +4,7 @@ $(document).ready(function () {
         data.forEach(post => {
             var html = `<article class="col-12 col-md-6 tm-post">
             <hr class="tm-hr-primary">
-            <a href="post.html" class="effect-lily tm-post-link tm-pt-60">
+            <a href="post.html?id=${post.id}" class="effect-lily tm-post-link tm-pt-60">
                 <div class="tm-post-link-inner">
                     <img src="img/shark2.jpg" alt="Image" class="img-fluid">                            
                 </div>
