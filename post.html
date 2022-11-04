@@ -14,13 +14,26 @@
         textarea {
           width: 100%;
           height: 150px;
-          padding: 12px 20px;
+          padding: 12px 10px;
           box-sizing: border-box;
           border: 2px solid #ccc;
           border-radius: 4px;
           background-color: #f8f8f8;
-          font-size: 24px;
+          font-size: 20px;
           resize: none;
+        }
+        input[type=title] {
+            background: #f8f8f8;
+            font-size: 0.8rem;
+            border-radius: 4px;
+            border: 2px solid #ccc;
+            padding: 12px 10px;
+            font-size: 20px;
+            width: 380px;
+            margin: 20px 0;
+        }
+        .bottom{
+            margin-bottom:40px ;
         }
     </style>
     <!--
@@ -74,14 +87,16 @@ https://templatemo.com/tm-553-xtra-blog
         <main class="tm-main">
             <div class="row tm-row">
                 <div class="col-12">
-                    <h1> <b>
+                    <h1> 
+                        <b>
                             Cá ngừ cọ lưng vào cá mập để thoát khỏi ký sinh trùng
-                        </b> </h1>
+                        </b>
+                    </h1>
                     <br>
                     <img src="img/shark1.jpg" style="width: 100%">
                     <p style="text-align: center">Cá ngừ vây vàng cọ vào cá mập xanh. Ảnh: Chris Thompson</p>
                 </div>
-                <div>
+                <div class="bottom">
                     Lỗ chân lông và da cá mập rất sạch và giống như giấy nhám, theo nhà nghiên cứu Chris Thompson ở Đại
                     học Western Australia. Bằng cách cọ xát vào bề mặt cứng, cá ngừ có thể thoát khỏi ký sinh trùng gây
                     đau đớn bám vào đầu, mắt và mang của chúng. Thompson và cộng sự công bố kết quả nghiên cứu hôm 19/10
@@ -102,16 +117,13 @@ https://templatemo.com/tm-553-xtra-blog
                     Điều khiến nghiên cứu thực sự đáng chú ý là mức độ đa dạng của các quan sát và chất lượng video,
                     theo Iain Barber ở Đại học Nottingham Trent tại Anh. Barber nhấn mạnh số lượng cá mập giảm trên khắp
                     thế giới có thể ảnh hưởng tới nỗ lực loại bỏ ký sinh trùng nguy hiểm của các loài cá khác.
-
-                    <br>
-                    <br>
-                    <br>
                 </div>
 
                 <hr size="5" width="100%" color="black">
                 <div>
                    <h3>Bình luận</h3> 
                    <div>
+                        <input type="title" placeholder="Nhập UserID" />
                         <textarea cols="45" rows="5" name="content" placeholder="Nhập nội dung bài viết"
                         style="border-radius:5px ;"></textarea><br>
                         <button style="margin-top: 20px;">
